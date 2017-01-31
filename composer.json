@@ -1,5 +1,5 @@
 {
-    "name": "sroutier/eloquent-ldap",
+    "name": "skoii/eloquent-ldap",
     "description": "A Laravel package that first tries to log the user against the internal database if that fails, it tries against the configured LDAP/AD server.",
     "keywords": [
       "ldap",
@@ -22,7 +22,7 @@
     "require": {
         "illuminate/support": "~5.1",
         "php" : ">=5.5.9",
-        "adldap2/adldap2": "5.*"
+        "adldap2/adldap2": "7.*"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*",
